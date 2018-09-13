@@ -24,6 +24,8 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TallerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AdministracionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -38,9 +40,22 @@ Partial Class Form1
         '
         'ArchivoToolStripMenuItem
         '
+        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TallerToolStripMenuItem, Me.AdministracionToolStripMenuItem})
         Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
         Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
         Me.ArchivoToolStripMenuItem.Text = "Archivo"
+        '
+        'TallerToolStripMenuItem
+        '
+        Me.TallerToolStripMenuItem.Name = "TallerToolStripMenuItem"
+        Me.TallerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TallerToolStripMenuItem.Text = "Taller"
+        '
+        'AdministracionToolStripMenuItem
+        '
+        Me.AdministracionToolStripMenuItem.Name = "AdministracionToolStripMenuItem"
+        Me.AdministracionToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AdministracionToolStripMenuItem.Text = "Administracion"
         '
         'Form1
         '
@@ -61,4 +76,6 @@ Partial Class Form1
 
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents ArchivoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents TallerToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AdministracionToolStripMenuItem As ToolStripMenuItem
 End Class
