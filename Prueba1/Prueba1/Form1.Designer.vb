@@ -26,13 +26,13 @@ Partial Class Form1
         Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TallerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AdministracionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.QuePahooToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ROchaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.ROchaToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
@@ -41,7 +41,7 @@ Partial Class Form1
         '
         'ArchivoToolStripMenuItem
         '
-        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TallerToolStripMenuItem, Me.AdministracionToolStripMenuItem, Me.QuePahooToolStripMenuItem})
+        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TallerToolStripMenuItem, Me.AdministracionToolStripMenuItem})
         Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
         Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
         Me.ArchivoToolStripMenuItem.Text = "Archivo"
@@ -58,11 +58,11 @@ Partial Class Form1
         Me.AdministracionToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AdministracionToolStripMenuItem.Text = "Administracion"
         '
-        'QuePahooToolStripMenuItem
+        'ROchaToolStripMenuItem
         '
-        Me.QuePahooToolStripMenuItem.Name = "QuePahooToolStripMenuItem"
-        Me.QuePahooToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.QuePahooToolStripMenuItem.Text = "Que pahoo"
+        Me.ROchaToolStripMenuItem.Name = "ROchaToolStripMenuItem"
+        Me.ROchaToolStripMenuItem.Size = New System.Drawing.Size(54, 20)
+        Me.ROchaToolStripMenuItem.Text = "ROcha"
         '
         'Form1
         '
@@ -85,5 +85,5 @@ Partial Class Form1
     Friend WithEvents ArchivoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TallerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AdministracionToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents QuePahooToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ROchaToolStripMenuItem As ToolStripMenuItem
 End Class
