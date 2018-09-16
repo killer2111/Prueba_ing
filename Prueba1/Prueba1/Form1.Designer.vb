@@ -26,6 +26,7 @@ Partial Class Form1
         Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TallerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AdministracionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.QuePahooToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -40,7 +41,7 @@ Partial Class Form1
         '
         'ArchivoToolStripMenuItem
         '
-        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TallerToolStripMenuItem, Me.AdministracionToolStripMenuItem})
+        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TallerToolStripMenuItem, Me.AdministracionToolStripMenuItem, Me.QuePahooToolStripMenuItem})
         Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
         Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
         Me.ArchivoToolStripMenuItem.Text = "Archivo"
@@ -56,6 +57,12 @@ Partial Class Form1
         Me.AdministracionToolStripMenuItem.Name = "AdministracionToolStripMenuItem"
         Me.AdministracionToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AdministracionToolStripMenuItem.Text = "Administracion"
+        '
+        'QuePahooToolStripMenuItem
+        '
+        Me.QuePahooToolStripMenuItem.Name = "QuePahooToolStripMenuItem"
+        Me.QuePahooToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.QuePahooToolStripMenuItem.Text = "Que pahoo"
         '
         'Form1
         '
@@ -78,4 +85,5 @@ Partial Class Form1
     Friend WithEvents ArchivoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TallerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AdministracionToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents QuePahooToolStripMenuItem As ToolStripMenuItem
 End Class
