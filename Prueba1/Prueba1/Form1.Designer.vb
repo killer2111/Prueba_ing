@@ -27,12 +27,13 @@ Partial Class Form1
         Me.TallerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AdministracionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ROchaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ChaparronToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.ROchaToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.ROchaToolStripMenuItem, Me.ChaparronToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
@@ -49,13 +50,13 @@ Partial Class Form1
         'TallerToolStripMenuItem
         '
         Me.TallerToolStripMenuItem.Name = "TallerToolStripMenuItem"
-        Me.TallerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TallerToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.TallerToolStripMenuItem.Text = "Taller"
         '
         'AdministracionToolStripMenuItem
         '
         Me.AdministracionToolStripMenuItem.Name = "AdministracionToolStripMenuItem"
-        Me.AdministracionToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AdministracionToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.AdministracionToolStripMenuItem.Text = "Administracion"
         '
         'ROchaToolStripMenuItem
@@ -63,6 +64,12 @@ Partial Class Form1
         Me.ROchaToolStripMenuItem.Name = "ROchaToolStripMenuItem"
         Me.ROchaToolStripMenuItem.Size = New System.Drawing.Size(54, 20)
         Me.ROchaToolStripMenuItem.Text = "ROcha"
+        '
+        'ChaparronToolStripMenuItem
+        '
+        Me.ChaparronToolStripMenuItem.Name = "ChaparronToolStripMenuItem"
+        Me.ChaparronToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
+        Me.ChaparronToolStripMenuItem.Text = "Chaparro"
         '
         'Form1
         '
@@ -86,4 +93,5 @@ Partial Class Form1
     Friend WithEvents TallerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AdministracionToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ROchaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ChaparronToolStripMenuItem As ToolStripMenuItem
 End Class
